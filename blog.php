@@ -1,6 +1,7 @@
 <?php
-	require "./functions.php";
-	$database = new database();
+include 'conn.php';
+	require "functions.php";
+	//$database = new database();
 	$data = get_list_post();
 
 ?>
