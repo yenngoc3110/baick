@@ -1,8 +1,8 @@
 <?php
-include 'conn.php';
 	require "functions.php";
 	//$database = new database();
 	$data = get_list_post();
+	include 'conn.php';
 
 ?>
 <!DOCTYPE html>
